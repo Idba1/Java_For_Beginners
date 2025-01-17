@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class array {
@@ -16,5 +17,21 @@ public class array {
         for (int i = 0; i < value; i++) {
             System.out.print(arr1[i] + " ");
         }
+        System.out.println();
+
+        int[] arr2 = new int[] { 1, 43, 44, 23 };
+        int[] arr3 = { 34, 234, 45, 34 };
+        String[] name = new String[] { "Idba", "Islam", "Rifa", "Anisha" };
+        System.out.println(Arrays.toString(arr2));
+        System.out.println(Arrays.toString(arr3));
+        System.out.println(Arrays.toString(name));
+
+        for (int i = 0; i < name.length; i++) {
+            // System.out.println("Happy Birth Day!" + " " + name[3] + " ");
+            System.out.println(name[i]);
+        }
+        System.out.println(name[2]);
+        name[1] = "Adnan";
+        System.out.println(name[1]);
     }
 }
