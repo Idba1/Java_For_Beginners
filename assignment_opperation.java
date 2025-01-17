@@ -17,5 +17,7 @@ public class assignment_opperation {
         System.out.println(7 != 7);
         System.out.println((5 == 9) || (2 == 2));
         System.out.println((5 == 9) && (2 == 2));
+        System.out.println((7 > 9));
+        System.out.println(!(7 > 9));
     }
 }
