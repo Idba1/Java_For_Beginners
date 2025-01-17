@@ -2,6 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "reverse_int",
+      "request": "launch",
+      "mainClass": "reverse_int",
+      "projectName": "Java_For_Beginners_95e13aa8"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
